@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <body>
+            <center><h1>Reservation Form</h1></center>
+            <form method="post" action="reservation php."></form>
+            <br>
+            <p>Name</p>
+            <input type="text"name="visitor name"placeholder="your name" required />
+            <br>
+            <br>
+            <p>Email</p>
+            <input type="text"name="email"placeholder="your mail" required />
+            <br>
+            <br>
+            <p>Phone number</p>
+            <input type="tel"id="phone"name="your phone"placeholder="000-000-0000" pattern=(\d{3})-?(/d{3})-?\s?(\d{4}) required/>
+            <br>
+            <p>Adults</p>
+            <input type="number" id="adults" name="total adults"placeholder="2"min="1" required/>
+            <p>Children</p>
+            <input type="number"id="child" name="total children"placeholder="2"min="0" requires/>
+            <br>
+            <br>
+            <p>Checkin-Date</p>
+            <input type="date"id="checkin date"name="checkin"required>
+            <align="right"> <p>Checkout-Date</p></align>
+            <input type="date"id="checkout date"name="checkout"required />
+            <br>
+            <p>Select room preferencs</p>
+            <select id="room selection"name="room preference"required/>
+            <option value="connecting">Connecting</option>
+            <option value="adjoining">Adjoining</option>
+            <option value="Adjacent">Adjacent</option>
+        </form>
+         <button type="submit"name="Book the rooms"></button>
+        </body>
+    </head>
+</html>
